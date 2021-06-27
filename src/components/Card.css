@@ -6,15 +6,14 @@
   height: 350px;
   border-radius: 15px;
   transform: rotate(0);
-  margin: 40px;
+  margin: 20px;
 }
 .card .content {
   position: relative;
   width: 350px;
   height: 300px;
 }
-.card:hover .content {
-}
+
 .card .content .back {
   position: absolute;
   top: 10px;
@@ -53,7 +52,11 @@
 .card .content .img-1 ul li {
   margin: 10px;
   list-style: none;
-  background-color: aliceblue;
+}
+.card .content .img-1 ul li i {
+  font-size: 20px;
+  list-style: none;
+  color: aliceblue;
 }
 
 .card .content .img-1 img {
