@@ -1,9 +1,15 @@
 .app {
+  width: 100vw;
+  min-height: 100vh;
+  border-radius: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .app .container {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  background-color: #161623;
   width: 100%;
-  min-height: 100vh;
-}
+  height: 50%;
+  border: 3px solid black;
+} */
