@@ -11,7 +11,7 @@
 .card .content {
   position: relative;
   width: 350px;
-  height: 300px;
+  height: 280px;
 }
 
 .card .content .back {
@@ -49,12 +49,12 @@
   opacity: 1;
   transform: rotate(0deg);
 }
-.card .content .img-1 ul li {
+.card .content .img-1 ul li i {
   margin: 10px;
   list-style: none;
 }
 .card .content .img-1 ul li i {
-  font-size: 20px;
+  margin: 10px;
   list-style: none;
   color: aliceblue;
 }
