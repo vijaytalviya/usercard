@@ -5,7 +5,6 @@
   width: 440px;
   height: 350px;
   border-radius: 15px;
-  transform: rotate(0);
   margin: 20px;
 }
 .card .content {
@@ -49,13 +48,12 @@
   opacity: 1;
   transform: rotate(0deg);
 }
-.card .content .img-1 ul li i {
+.card .content .img-1 ul li {
   margin: 10px;
   list-style: none;
 }
 .card .content .img-1 ul li i {
-  margin: 10px;
-  list-style: none;
+  font-size: 20px;
   color: aliceblue;
 }
 
